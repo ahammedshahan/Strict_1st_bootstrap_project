@@ -98,14 +98,35 @@
     line-height: 25px;
  }
  /* Feature Section */
-  .feature{
- 	width: 30%;
- 	padding: 50px 5px 50px 5px;
- 	float: left;
- 	display: block;
+ .row{
+ 	padding: 5%;
  }
- .feature p{
+  .row p{
  	color: #a0a0a0;
+ 	text-align: center;
+ 	font-size: 14px;
+ 	padding: 5%;
  }
- 
+ .row img{
+ 	
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+    width: 30%;
+}
+.row h4{
+	text-align: center;
+	padding: 3%;
+}
+/* portfolio section */
+.portfolio{
+	width: 100%;
+	background-color: #f6f9f9;
+}
+.portfolio h2{
+	margin-top: 7%;
+	text-align: center;
+}
+
 
