@@ -1,0 +1,111 @@
+/* Author Shakil Ahammed Shahan */
+
+/****************************
+	1.global typography
+	2.Header section
+	3.Banner section
+	4.intro section
+	5.Features section
+	6.portfolio section
+	7.Contact section
+	8.Footer section
+*****************************/
+/*================
+ Global Typography
+ ================*/
+ /* Google Front Lato */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+  *{
+ 	margin:0 auto;
+ }
+ body{
+ 	font-family: 'Lato', sans-serif;	
+ }
+.container{
+	width: 1140px;
+	margin: 0 auto; 
+}
+.logo{
+	padding: 20px;
+}
+/* Header Section start */
+.header{
+	background-color: f6f9f9;
+ 	padding: 20px 0px;
+}
+/* Banner Section */
+ .banner{
+ 	background: url(../img/banner.png) no-repeat;
+ 	background-size: cover; 
+ 	padding: 100px 0px 50px; 
+ }
+ .banner h1{
+ 	font-size: 72px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+ }
+ .banner p{
+ 	color: #fff;
+    text-align: center;
+    font-size: 18px;
+ }
+ .title-underline{
+ 	border: 1px solid #15a4fa;
+    width: 45%;
+    margin: 15px auto 20px;
+ }
+ .btn-primary{
+ 	padding: 10px 25px;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin: 75px auto 150px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+ }
+ .btn-primary:hover{
+ 	cursor: pointer;
+ 	background: #15a4fa;
+ }
+ .fa-angle-down{
+ 	color: #fff;
+    width: 100%;
+    text-align: center;
+ }
+  /* Intro Section */
+ .intro{
+ 	background-color: #f6f9f9;
+ 	padding: 50px 0px; 
+ }
+ .intro h2{
+ 	color: #303030;
+ 	text-align: center;
+ 	font-size: 36px;
+ }
+ .intro p{
+ 	font-size: 18px;
+    text-align: center;
+    padding: 20px 60px;
+    color: #a0a0a0;
+    line-height: 25px;
+ }
+ /* Feature Section */
+  .feature{
+ 	width: 30%;
+ 	padding: 50px 5px 50px 5px;
+ 	float: left;
+ 	display: block;
+ }
+ .feature p{
+ 	color: #a0a0a0;
+ }
+ 
+
