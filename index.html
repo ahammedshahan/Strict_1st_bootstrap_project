@@ -14,7 +14,7 @@
 </head>
 <body>
 	<!-- Header Section start -->
-	<section>
+	<section class="header">
 		<div class="container">
 			<div class="logo">
 				<!-- LOGO -->
@@ -30,7 +30,7 @@
 				<h1>Strict</h1>
 				<div class="title-underline"></div>
 				<p>STRICT is a responsive theme with a a clean and minimal look.</p>
-				<button type="button" class="btn-primary">call to action</button>
+				<button type="button" class="btn-primary btn_custom">call to action</button>
 				<i class="fa fa-angle-down fa-3x"></i>
 			</div>
 		</div>
@@ -45,37 +45,132 @@
 	</section>
 	<!-- Intro Section ends -->
 	<!-- Feature Section starts -->
-	<div class="container">
-    	<div class="row">
-   			<div class="f1-icon col-md-4">
-    			<img src="img/f-one.png" alt="f1-icon">
-    			<h4>Optimized for all devices</h4>
-    			<p>STRICT has been designed to be fully <br>
+	<section class="feature">
+		<div class="container">
+    		<div class="row text-center">
+   				<div class="f1-icon col-md-4">
+    				<img src="img/f-one.png" alt="f1-icon">
+    				<h4>Optimized for all devices</h4>
+    				<p>STRICT has been designed to be fully <br>
      				responsive on all devices</p>
-   			</div>
-  			<div class="f2-icon col-md-4">
-    			<img src="img/f-two.png" alt="f2-icon">
-    			<h4>Clean &  Minimal Design</h4>
-    			<p>This multipurpose theme is especially created <br>
-     			to be used for different projects.</p>
-   			</div>
-   			<div class="f3-icon col-md-4">
-    			<img src="img/f-three.png" alt="f3-icon">
-    			<h4>Font Awesome Icon</h4>
-    			<p>This multipurpose theme is especially created <br>
-    			to be used for different projects.</p>
-			<div>
-    	</div>
-  	</div>
+   				</div>
+  				<div class="f2-icon col-md-4">
+    				<img src="img/f-two.png" alt="f2-icon">
+    				<h4>Clean &  Minimal Design</h4>
+    				<p>This multipurpose theme is especially created <br>
+     				to be used for different projects.</p>
+   				</div>
+   				<div class="f3-icon col-md-4">
+    				<img src="img/f-three.png" alt="f3-icon">
+    				<h4>Font Awesome Icon</h4>
+    				<p>This multipurpose theme is especially created <br>
+    				to be used for different projects.</p>
+				<div>
+    		</div>
+  		</div>
+  </section>
 	<!-- Feature Section ends -->
+
 	<!-- Portfolio Section starts -->
 	<section class="portfolio">
 		<div class="container">
-			<h2>Showcase your work like a pro.</h2>
-			<p> Contact me if you like my work</p>
+			<div class="row custom_padding_top">
+				<div class="col-md-12 text-center">
+					<h2>Showcase your work like a pro.</h2>
+					<p>Contact me if you like my work</p>
+				</div>
+			</div>
+			<div class="row image1_padding_top">
+
+				<div class="col-md-4">
+					<img src="img/portfolio1.png">
+				</div>
+
+				<div class="col-md-4">
+					<img src="img/portfolio2.png">
+				</div>
+
+				<div class="col-md-4">
+					<img src="img/portfolio3.png">
+				</div>
+
+			</div>
+			<div class="row image2_padding_top">
+
+				<div class="col-md-4">
+					<img src="img/portfolio4.png">
+				</div>
+
+				<div class="col-md-4">
+					<img src="img/portfolio5.png">
+				</div>
+
+				<div class="col-md-4">
+					<img src="img/portfolio6.png">
+				</div>
+				
+			</div>
+
 		</div>
 	</section>
 	<!-- Portfolio Section ends -->
+
+	<!--Contact Section starts-->
+	<section class="contact">
+		<div class="container">
+			<div class="row custom_contact_text">
+				<div class="col-lg-6 offset-lg-3">
+					<h2>Stay with us</h2>
+					<p>We ensure quality & support</p>
+				</div>
+			</div>
+			<form>
+			  <div class="row">
+			    <div class="form-group col-md-6 offset-3">
+			      <input type="text" class="form-control" placeholder="Full name">
+			    </div>
+			  </div>
+			  <div class="row ">
+			  	<div class="form-group col-md-6 offset-3">
+			      <input type="text" class="form-control" placeholder="Email address">
+			    </div>
+			  </div>
+			  <div class="row ">
+			  	<div class="form-group col-md-6 offset-3">
+			      <textarea class="form-control" rows="5" placeholder=" messages"></textarea>
+			    </div>
+			  </div>
+			  <div class="row">
+			  	<div class="form-check col-md-5 offset-3">
+			  		<input type="checkbox" class="form-check-input" id="exampleCheck1">
+			  		<label class="form-check-label" for="exampleCheck1">Subscribe Newsletter</label>
+			  	</div>
+			  	<div class="form-group col-md-4">
+			  		<button type="send" class="btn btn-primary">Send</button>
+			  	</div>
+			  </div>
+			</form>
+		</div>
+	</section>
+	<!--Contact Section starts-->
+
+	<!--Footer Section starts-->
+	<section class="footer">
+		<div class="container">
+    	<div class="row">
+        	<div class="col-lg-6 col-md-6 col-sm-6">
+            	<p>Copyright 2014, STRICT</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 social">
+            	<a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+               <a href="#"><i class="fa fa-google-plus"></i></a>
+               <a href="#"> <i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+	</section>
+	<!--Footer Section end-->
 
 	<!-- js library files -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
