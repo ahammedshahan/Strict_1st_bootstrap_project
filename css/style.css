@@ -57,7 +57,7 @@
     width: 45%;
     margin: 15px auto 20px;
  }
- .btn-primary{
+ .btn_custom{
  	padding: 10px 25px;
     border: 1px solid #15a4fa;
     border-radius: 3px;
@@ -98,35 +98,56 @@
     line-height: 25px;
  }
  /* Feature Section */
- .row{
- 	padding: 5%;
- }
-  .row p{
- 	color: #a0a0a0;
- 	text-align: center;
- 	font-size: 14px;
- 	padding: 5%;
- }
- .row img{
- 	
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 7%;
-    width: 30%;
-}
-.row h4{
-	text-align: center;
-	padding: 3%;
+.feature{
+	padding: 50px 0px;
 }
 /* portfolio section */
 .portfolio{
-	width: 100%;
 	background-color: #f6f9f9;
+	padding: 3%;
 }
-.portfolio h2{
-	margin-top: 7%;
+.image1_padding_top{
+	margin-top: 8%;
+}
+.image2_padding_top{
+	margin-top: 2%;
+	margin-bottom: 8%;
+}
+.custom_padding_top{
+	padding-top: 8% ;
+}
+.custom_padding_top p{
+	color: #a0a0a0;
+}
+/* contact section */ 
+.contact{
+	background: url(../img/footer_bg.png) no-repeat;
+	background-size: cover;
+	padding: 100px 0px 50px;
+}
+.custom_contact_text h2{
 	text-align: center;
+	color: #cacbcf;
 }
+.custom_contact_text p{
+	text-align: center;
+	color: #939495;
+}
+.form-control{
+	background-color: transparent;
+}
+ .btn btn-primary{
+ 	background-color: transparent;
+ }
+.btn btn-primary:hover{
+ 	cursor: pointer;
+ 	
+ }
+ .custom_box_fname{
+ 	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+ }
 
-
+  /* footer section */
